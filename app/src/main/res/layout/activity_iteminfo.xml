@@ -55,7 +55,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="3"
+            android:layout_weight="2"
             android:orientation="vertical"
             android:background="@color/app_theme_color">
 
@@ -72,8 +72,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Orenge cake Biscuit"
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                    android:text="Orenge cake Biscuit (Regular)"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
             </LinearLayout>
 
             <ScrollView
@@ -95,41 +95,12 @@
                     android:weightSum="2">
                     <TextView
                         android:layout_weight="1"
-                        android:id="@+id/tvSizeTitle"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:textColor="@color/app_theme_color"
-                        android:text="SIZE "
-                        android:textAppearance="?android:attr/textAppearanceMedium" />
-                    <TextView
-                        android:layout_weight="1"
-                        android:id="@+id/tvSize"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="left"
-                        android:textColor="@color/app_theme_color"
-                        android:text=" TIN"
-                        android:textAppearance="?android:attr/textAppearanceMedium" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_marginBottom="1dp"
-                    android:background="@color/white"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="10dp"
-                    android:weightSum="2">
-                    <TextView
-                        android:layout_weight="1"
                         android:id="@+id/tvUnitTitle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:textColor="@color/app_theme_color"
-                        android:text="1 CARTON "
-                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                        android:text="1 CARTON " />
                     <TextView
                         android:layout_weight="1"
                         android:id="@+id/tvUnit"
@@ -137,8 +108,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="left"
                         android:textColor="@color/app_theme_color"
-                        android:text=" 4 TIN"
-                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                        android:text=" 4 TIN" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -156,8 +126,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:textColor="@color/app_theme_color"
-                        android:text="Validity"
-                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                        android:text="Validity" />
                     <TextView
                         android:layout_weight="1"
                         android:id="@+id/tvValidity"
@@ -165,8 +134,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="left"
                         android:textColor="@color/app_theme_color"
-                        android:text=" MINIMUM 6 MONTHS"
-                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                        android:text=" MINIMUM 6 MONTHS" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -184,8 +152,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:textColor="@color/app_theme_color"
-                        android:text="CARTON MRP"
-                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                        android:text="CARTON MRP" />
                     <TextView
                         android:layout_weight="1"
                         android:id="@+id/tvMRP1"
@@ -193,8 +160,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="left"
                         android:textColor="@color/app_theme_color"
-                        android:text="800 TK"
-                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                        android:text="800 TK"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -212,8 +178,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:textColor="@color/app_theme_color"
-                        android:text="TIN MRP"
-                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                        android:text="TIN MRP" />
                     <TextView
                         android:layout_weight="1"
                         android:id="@+id/tvMRP2"
@@ -222,7 +187,7 @@
                         android:gravity="left"
                         android:textColor="@color/app_theme_color"
                         android:text="200 TK"
-                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                        />
                 </LinearLayout>
 
             </LinearLayout>
